@@ -17,8 +17,8 @@ public class SpringEmaildemoApplication {
 	}
 	@EventListener(ApplicationReadyEvent.class)
 	public void sendMail(){
-		senderService.sendEmail("mujamil.official@gmail.com",
-				"Mail for MOOLAKADAI MUJAMIL!!!!!!! :",
+		senderService.sendEmail("abjayalakshmi191@gmail.com",
+				"Mail for jan!!!!!!! :",
 				"HI...THIS IS JAN");
 	}
 
